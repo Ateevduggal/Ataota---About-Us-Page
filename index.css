@@ -1,0 +1,125 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: linear-gradient(
+    305.1deg,
+    rgba(147, 0, 101, 0.4) 30%,
+    #ffffff 70.21%
+  );
+}
+.logo {
+  height: 80px;
+  width: 80px;
+  padding: 0.6%;
+}
+.name {
+  font-size: 40px;
+  padding: 0 2%;
+  font-weight: 700;
+}
+.about {
+  background: linear-gradient(90deg, #d75ff5 0%, #930065 100%);
+}
+.box-1 {
+  width: 180px;
+  border-radius: 10px;
+}
+.name-a {
+  font-size: 35px;
+  font-weight: 700;
+}
+.box-2 {
+  background: linear-gradient(90.03deg, #930065 0.02%, #d75ff5 100.85%);
+  border-radius: 10px;
+  margin: 10% 0 4% 0;
+}
+.button {
+  background: linear-gradient(270.47deg, #00c8a6 0.33%, #00957c 99.6%);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  width: 180px;
+  border-radius: 10px;
+  border: none;
+}
+.image {
+  width: 55%;
+  margin-top: 4%;
+}
+.box-3a {
+  border-radius: 10px;
+  margin: 0 10%;
+}
+.box-3b {
+  border: 6px solid white;
+  height: 50px;
+  width: 0px;
+  margin: 0 20%;
+}
+.box-3c {
+  border-radius: 25px;
+}
+.box-5 {
+  border-radius: 10px;
+  width: 250px;
+}
+.button-1 {
+  border: none;
+  background: linear-gradient(180deg, #00c8a6 0%, #00957c 100%);
+  border-radius: 10px;
+  width: 130px;
+  float: right;
+}
+.offer {
+  background: linear-gradient(
+    280.1deg,
+    rgba(147, 0, 101, 0.4) 30%,
+    rgba(244, 205, 232, 0.4) 70.21%
+  );
+}
+#frame {
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+#box-3a {
+  width: 20%;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+  margin: 0 18%;
+}
+.image {
+  width: 60%;
+}
+.box-3d {
+  border: 6px solid white;
+  height: 50px;
+  width: 0px;
+  margin: 0 27%;
+}
+.frame {
+  margin: 3% 0;
+  width: 90%;
+}
+.vector-1 {
+  margin-left: -100%;
+  position: absolute;
+  margin-top: -0.5%;
+}
+.vector-2 {
+  margin-top: 2.4%;
+  margin-left: -100%;
+  position: absolute;
+}
+.footer {
+  margin-top: -7%;
+  padding-left: 5%;
+  z-index: 99;
+}
+.footer-1 {
+  margin-top: -3%;
+  margin-left: -3%;
+  z-index: 99;
+}
