@@ -12,9 +12,17 @@ body {
   );
 }
 .logo {
-  height: 80px;
   width: 80px;
   padding: 0.6%;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .logo {
+    width: 40px;
+  }
+  .name {
+    font-size: 16px !important;
+    margin-top: 1%;
+  }
 }
 .name {
   font-size: 40px;
@@ -46,9 +54,33 @@ body {
   border-radius: 10px;
   border: none;
 }
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .box-1 {
+    width: 100px;
+    margin-left: 35% !important;
+  }
+  .name-a {
+    font-size: 20px;
+    padding: 1% !important;
+  }
+  .box-2 {
+    text-align: center;
+    padding: 0 !important;
+    margin-top: 2% !important;
+  }
+  .button {
+    border-radius: 20px;
+    margin-right: 25% !important;
+  }
+}
 .image {
   width: 55%;
   margin-top: 4%;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .image {
+    width: 100% !important;
+  }
 }
 .box-3a {
   border-radius: 10px;
@@ -63,6 +95,33 @@ body {
 .box-3c {
   border-radius: 25px;
 }
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .ovm-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ovm-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7% !important;
+  }
+  #box {
+    margin: 0 !important;
+  }
+  .box-3a {
+    width: 50% !important;
+  }
+  .box-3c,
+  .box-4 {
+    font-size: 15px !important;
+    width: 95% !important;
+    text-align: center !important;
+  }
+}
 .box-5 {
   border-radius: 10px;
   width: 250px;
@@ -74,12 +133,60 @@ body {
   width: 130px;
   float: right;
 }
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .box-5 {
+    width: 150px !important;
+  }
+  .card {
+    margin-bottom: 5% !important;
+  }
+  .card-title {
+    text-align: center;
+    font-size: 25px !important;
+  }
+  .button-1 {
+    float: none;
+    margin-left: 25%;
+  }
+}
 .offer {
   background: linear-gradient(
     280.1deg,
     rgba(147, 0, 101, 0.4) 30%,
     rgba(244, 205, 232, 0.4) 70.21%
   );
+}
+#box-6a {
+  width: 60%;
+}
+#box-6b {
+  width: 70%;
+}
+#box-6c {
+  width: 50%;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  #offer {
+    width: 80% !important;
+  }
+  #box-6a {
+    width: 80% !important;
+    font-size: 15px !important;
+    margin: 0 !important;
+  }
+  #box-6b {
+    width: 97% !important;
+    font-size: 15px !important;
+    margin: 0 !important;
+  }
+  #box-6c {
+    width: 70% !important;
+    font-size: 15px !important;
+    margin: 0 !important;
+  }
+  #box-6 {
+    margin-left: 10% !important;
+  }
 }
 #frame {
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
@@ -89,6 +196,9 @@ body {
   width: 20%;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
   margin: 0 18%;
+}
+#order-1 {
+  display: none;
 }
 .image {
   width: 60%;
@@ -101,6 +211,30 @@ body {
 }
 .frame {
   width: 90%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  #order {
+    display: none;
+  }
+  #order-1 {
+    display: block;
+  }
+  .image-order {
+    width: 60%;
+  }
+  #box-order {
+    padding: 2% 1.56% 3% 1.56%;
+  }
+  .box-6d {
+    border: 2px solid white;
+    width: 10%;
+    height: 2%;
+    margin-top: 5%;
+  }
+  .box-3d {
+    margin: 0 48% !important;
+  }
 }
 .vector-1 {
   margin-left: -100%;
@@ -121,4 +255,18 @@ body {
   margin-top: -3%;
   margin-left: -3%;
   z-index: 99;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  h3 {
+    font-size: 10px;
+  }
+  h5 {
+    font-size: 7px;
+  }
+  .h2 {
+    font-size: 12px;
+  }
+  .footer {
+    margin-top: -11% !important;
+  }
 }
